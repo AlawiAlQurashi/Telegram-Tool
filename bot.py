@@ -3,7 +3,7 @@ from telethon import TelegramClient
 from flask import Flask, request
 import telebot
 
-TOKEN = '838906822:AAFoj1ZFfRD2JFvK591Nd-DCXKsFA7n74vE'
+TOKEN = '5873979994:AAFGGw0uYrYys_wVaN_OzGH7tMF4phn2SNw'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 
@@ -16,8 +16,8 @@ group = ''
 target_admins = []
 phone_numbers = []
 
-api_id = '1024191'
-api_hash = '12f029b11e81a9c19a5ac34a0670a385'
+api_id = '8373939'
+api_hash = 'dc1476b2e297c057ee2d7b6df265a199'
 
 @bot.message_handler(commands=['start'])
 def start(msg):
