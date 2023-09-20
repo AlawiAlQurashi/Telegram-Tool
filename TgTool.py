@@ -16,8 +16,8 @@ class TG_tool(object):
     def __init__(self, targetGroup, group, start):
         self.sessions = glob.glob("sessions/*.session")
         self.targetGroup = targetGroup
-        self.id = '1024191'
-        self.hash = '12f029b11e81a9c19a5ac34a0670a385'
+        self.id = '8373939'
+        self.hash = 'dc1476b2e297c057ee2d7b6df265a199'
         self.group = group
         self.start = start
         self.session = ''
